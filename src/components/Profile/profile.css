@@ -1,0 +1,65 @@
+.main-order{
+    min-height: calc(100vh - 31px);
+    position:relative;
+}
+
+ul.breadcrumb {
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.breadcrumb li + li:before {
+    padding: 4px;
+    color: #9D9D9D;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #9D9D9D;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cartcontainer {
+    min-height: 71.5vh;
+    margin-left: 3%;
+}
+
+.personaldetails {
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    
+}
+
+.bookdiv {
+    border: 0.1px solid grey;
+    padding: 2%;
+    width: 88%;
+    flex-direction: row;
+    height: 90%;
+}
+
+.secondtext {
+    margin-bottom: 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#customerBtn {
+    background-color: rgb(160, 48, 60);
+    width: 30%;
+    margin-bottom: 2%;
+    color: #fff;
+    display: flex;
+    margin-left: 105%;
+}
